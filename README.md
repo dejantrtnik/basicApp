@@ -17,6 +17,12 @@ $data = array(
   'msg'    => 'Test'  // spremeni "Test"
   );
 ```
+Obvezen vnos svojih podatkov v ".env" datoteko
+BOT = ???
+ID = ???
+* za uporabo telegram aplikacije se obrnite na njihovo stran
+https://core.telegram.org/
+
 zahteve serverja:
 - PHP 7
 - php-curl
