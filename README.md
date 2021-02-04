@@ -18,9 +18,9 @@ $data = array(
   );
 ```
 Obvezen vnos svojih podatkov v ".env" datoteko
-BOT = ??? /
+BOT = ??? \
 ID = ???
-* za uporabo telegram aplikacije se obrnite na njihovo stran:/
+* za uporabo telegram aplikacije se obrnite na njihovo stran:\
 https://core.telegram.org/
 
 zahteve serverja:
