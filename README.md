@@ -6,7 +6,7 @@ Pošiljanje podatkov na telegram
 - pošiljanje na telegram aplikacijo
 
 
-### Manual
+### Navodila
 
 V mapi "app" se nahaja datoteka "app.php", v
 njej spremeni sledeče podatke ali uporabi variabilke (POST, itd...):
@@ -21,7 +21,7 @@ zahteve serverja:
 - PHP 7
 - php-curl
 
-zahtevani moduli:
+zahtevani (že vključeni) moduli:
 - dotEnv
 - telegram
 - ip
