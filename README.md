@@ -31,3 +31,23 @@ zahtevani (že vključeni) moduli:
 - dotEnv
 - telegram
 - ip
+
+# primer uporabe - obrazec za pošiljanje
+
+```PHP
+if (isset($_POST['form'])) {
+  $data = array(
+    'header' => 'Moja spletna stran',
+    'name'   => $_POST['name'],
+    'msg'    => $_POST['msg']
+  );
+  app($app, $data);
+}
+```
+```html
+<form class="" action="" method="post">
+  <input type="text" name="name" value=""><br>
+  <input type="text" name="msg" value=""><br>
+  <input type="submit" class="btn" name="form" value="Pošlji"><br>
+</form>
+```
