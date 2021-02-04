@@ -51,3 +51,9 @@ if (isset($_POST['form'])) {
   <input type="submit" class="btn" name="form" value="Pošlji"><br>
 </form>
 ```
+
+#### v primeru napake
+ v primeru da se pri osveževanju strani ponovno\
+ pošljejo podatki na telegram, uporabite modul "clear", \
+ dobite ga https://github.com/dejantrtnik/php-framework/tree/main/Modules  \
+ ali pa na svoj način koncu izpraznite POST... 
