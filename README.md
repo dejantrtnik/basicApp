@@ -8,7 +8,7 @@ Pošiljanje podatkov na telegram
 
 ### Navodila
 
-V mapi "app" se nahaja datoteka "app.php", v
+V mapi se nahaja datoteka "index.php", v
 njej spremeni sledeče podatke ali uporabi variabilke (POST, itd...):
 ```php
 $data = array(
@@ -56,4 +56,4 @@ if (isset($_POST['form'])) {
  v primeru da se pri osveževanju strani ponovno\
  pošljejo podatki na telegram, uporabite modul "clear", \
  dobite ga https://github.com/dejantrtnik/php-framework/tree/main/Modules  \
- ali pa na svoj način koncu izpraznite POST... 
+ ali pa na svoj način koncu izpraznite POST...
